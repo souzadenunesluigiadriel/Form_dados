@@ -1,0 +1,234 @@
+body {
+	font: 16px "Trebuchet MS", Helvetica, sans-serif;
+	background: white;
+
+}
+
+
+#container{
+	background: white;
+	width: 90%;
+	margin: 0 auto;
+	min-width: 720px;
+	max-width: 1280px;
+}
+
+#area-menu ul li {
+	width: 15%;
+	list-style: none;
+	float: right;
+	line-height: 2em;
+	text-indent: 3em;
+	background: url(../img/quem-somos.jpg) no-repeat left;
+	
+}
+#area-menu-teste ul li {
+	width: 20%;
+	max-width: 20%;
+	list-style: none;
+	display: inline;
+	float: right;
+	line-height: 2em;
+	text-indent: 3em;
+	background: url(../img/login.jpg) no-repeat;
+}
+
+#area-menu-t ul li {
+	width: 20%;
+	max-width: 15%;
+	list-style: none;
+	display: inline;
+	float: right;
+	line-height: 2em;
+	text-indent: 3em;
+	background: url(../img/atendimento.jpg) no-repeat;
+}
+
+#area-menu-tt ul li {
+	width: 20%;
+	max-width: 20%;
+	list-style: none;
+	display: inline;
+	float: right;
+	line-height: 2em;
+	text-indent: 3em;
+	background: url(../img/orcamento.jpg) no-repeat;
+}
+
+
+#area-menu  a,
+#area-menu-t a,
+#area-menu-tt a,
+#area-menu-teste a{
+	text-decoration: none;
+	color: orange;
+}
+
+#area-cabecalho h1,
+#area-cabecalho h2{
+	color: orange;
+	line-height: 0.1;
+}
+#img-principal{
+	height: 500px;
+	width: 100%;
+	background: url(../img/mecanico.jpg) no-repeat center;
+}
+#texto-img{
+	color: white;
+	text-align: center;
+	line-height: 6em;
+	text-indent: 16em;
+}
+#texto-abaixo-img{
+	color: orange;
+	font-family:"Trebuchet MS", Helvetica, sans-serif;
+	text-align: center;
+	padding-top: 10px;
+}
+
+
+#menu-rodape{
+	color: orange;
+	font-family:"Trebuchet MS", Helvetica, sans-serif;
+	display: flex;
+	text-indent: 6em;
+
+}
+
+
+#imgum{
+	background: url(../img/img1.jpg) no-repeat;
+
+}
+h5{
+	color: orange;
+	text-indent: -7em;
+	height: 250px;
+	
+}
+.flex-conteiner{
+    display: flex;
+    justify-content: space-between;
+   
+}
+
+
+.limpar p {
+	font-family:"Trebuchet MS", Helvetica, sans-serif;
+	color: white;
+	text-indent: 8em;
+	background: orange;
+}
+
+.teste article{
+	background: orange;
+}
+.testando a {
+	color: black;
+	text-decoration: none;
+	line-height: 3em;
+	margin: 8em;
+	width: 30px;
+	background-color: white;
+}
+
+.ajuste-inferior{
+	margin-top: -150px;
+}
+
+#pesquisa{
+	color: orange;
+	padding-left: 750px;
+	display: block;
+	border: 1px solid red;
+
+}
+
+#butao{
+	margin-top: -1px;
+	padding: 10px;
+	color: white;
+	float: right;
+	border-radius: 0px 12px 12px 0px;
+	background: orange;
+}
+
+.agenda{
+	padding: 2px;
+	border: 1px solid black;
+	border-radius: 5px;
+}
+.m{
+	padding-right: 70px;
+	color: white;
+	display: flex;
+	float: right;
+	height: 40px;
+}
+#n{
+padding-top: -40px;
+padding-left: -50px;
+display: flex;
+float: right;
+height: 40px;
+}
+
+#b{
+	margin: -30px;
+}
+
+.clear{
+	clear: both;
+}
+
+
+
+
+#sec{
+	background-color: gray;
+	color: white;
+}
+
+
+#testesecone{
+	float: left;
+	text-indent: 2em;
+	line-height: 0.1em;
+	margin-top: 16px;
+}
+
+
+
+
+
+
+
+
+/* Segunda section/ botao do zap*/
+
+#testesec{
+	float: right;
+	width: 24%;
+	padding-left: 1em;
+}
+
+#texto-botao{
+	float: right;
+	margin-right: 2em;
+	font-size: 19px;
+	color: green;
+	height: 42px;
+
+}
+
+#botao-zap{
+	color: white;
+	border-radius: 12px 12px 12px 12px;
+	background: green;
+	float: right;
+	padding: 10px;
+	margin-right: 6em;
+	margin-top: -1.5em;
+	margin-bottom: 1em;
+}

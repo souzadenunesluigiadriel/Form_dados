@@ -1,0 +1,183 @@
+/*------Menu horizontal------*/
+body {
+	font: 16px "Trebuchet MS", Helvetica, sans-serif;
+	background: white;
+
+}
+
+
+#container{
+	background: white;
+	width: 90%;
+	margin: 0 auto;
+	min-width: 720px;
+	max-width: 1280px;
+}
+
+#area-menu ul li {
+	width: 15%;
+	list-style: none;
+	float: right;
+	line-height: 2em;
+	text-indent: 3em;
+	background: url(../img/quem-somos.jpg) no-repeat left;
+	
+}
+#area-menu-teste ul li {
+	width: 20%;
+	max-width: 20%;
+	list-style: none;
+	display: inline;
+	float: right;
+	line-height: 2em;
+	text-indent: 3em;
+	background: url(../img/login.jpg) no-repeat;
+}
+
+#area-menu-t ul li {
+	width: 20%;
+	max-width: 15%;
+	list-style: none;
+	display: inline;
+	float: right;
+	line-height: 2em;
+	text-indent: 3em;
+	background: url(../img/atendimento.jpg) no-repeat;
+}
+
+#area-menu-tt ul li {
+	width: 20%;
+	max-width: 20%;
+	list-style: none;
+	display: inline;
+	float: right;
+	line-height: 2em;
+	text-indent: 3em;
+	background: url(../img/orcamento.jpg) no-repeat;
+}
+
+
+#area-menu  a,
+#area-menu-t a,
+#area-menu-tt a,
+#area-menu-teste a{
+	text-decoration: none;
+	color: orange;
+}
+
+#area-cabecalho h1,
+#area-cabecalho h2{
+	color: orange;
+	line-height: 0.1;
+}
+#img-principal{
+	height: 500px;
+	width: 100%;
+	background: url(../img/mecanico.jpg) no-repeat center;
+}
+
+/*-------------------Formulario-------------------------*/
+
+#form_total{
+    background-color: #b48252;
+    width: 1209px;
+	border-radius: 15px;
+    color: aliceblue;
+	font-size: 100%;
+	
+	
+    
+}
+
+#Titulo{
+    text-align: center;
+    color: aliceblue;
+}
+
+#form_total p{
+	margin-left: 60px;
+}
+
+#form_total input{
+    border-radius: 7px;
+	height: 40px;
+	margin-left: 60px;
+	border: none;
+	
+	
+	
+	
+}
+
+#form_nome input{
+	width: 700px;
+	height: 40px;
+
+}
+
+#form_data input{
+	width: 150px;
+	height: 40px;
+}
+
+#form_CPF input{
+	height: 40px;
+	width: 200px;
+}
+
+#form_tel input{
+	width: 150px;
+	height: 40px;
+
+}
+
+#form_endereco input{
+	width: 700px;
+	height: 40px;
+
+}
+
+#form_numero input{
+	width: 60px;
+	height: 40px;
+
+}
+
+/*-------------------Dados de Login--------------------*/
+
+#form_login{
+	margin-left: 60px;
+	height: 30px;
+	margin-left: 120px;
+}
+
+#form_email input{
+	height: 30px;
+	width: 300px;
+}
+
+#form_password input{
+	width: 230px;
+	height: 30px;
+
+}
+
+.btn-clique {
+	color: white;
+	border-radius: 3px;
+	background: #9E9E9E;
+	float: right;
+	margin-right: 2em;
+	margin-top: -1.5em;
+	width: 130px;
+	font-size: 20px;
+	height: 50;
+	border: none;
+
+}
+
+.caixa {
+	margin-left: 60px;
+	
+	
+}
